@@ -1,0 +1,66 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #f2f4f8;
+    font-family: Arial, sans-serif;
+}
+
+.profile-card {
+    width: 300px;
+    padding: 25px;
+    margin: 20px auto;
+    border: 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+}
+
+.profile-card h2 {
+    margin: 15px 0 5px;
+}
+
+.role {
+    font-weight: bold;
+}
+
+.bio {
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.blue-card {
+    border-color: #eb25de;
+}
+
+.blue-card .role {
+    color: #eb25de;
+}
+
+.blue-card .bio {
+    background-color: #dbeafe;
+}
+
+.purple-card {
+    border-color: #9333ea;
+}
+
+.purple-card .role {
+    color: #9333ea;
+}
+
+.purple-card .bio {
+    background-color: #f3e8ff;
+}
