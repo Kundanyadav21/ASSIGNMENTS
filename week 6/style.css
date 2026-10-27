@@ -36,10 +36,16 @@ body {
     font-weight: bold;
 }
 
+
 .bio {
+    height: 120px;
+    overflow: auto;
     padding: 12px;
     border-radius: 10px;
+    text-align: left;
+    line-height: 1.6;
 }
+
 
 .blue-card {
     border-color: #eb25de;
@@ -62,5 +68,10 @@ body {
 }
 
 .purple-card .bio {
-    background-color: #f3e8ff;
+    height: 120px;
+    overflow: auto;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 1.6;
 }
