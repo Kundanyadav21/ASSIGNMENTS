@@ -32,6 +32,7 @@
 body {
     margin: 0;
     padding: 30px;
+
     background-color: #f2f4f8;
     font-family: Arial, sans-serif;
 }
@@ -85,19 +86,3 @@ body {
     background-color: #dbeafe;
 }
 
-.purple-card {
-    border-color: #9333ea;
-}
-
-.purple-card .role {
-    color: #9333ea;
-}
-
-.purple-card .bio {
-    height: 120px;
-    overflow: auto;
-    padding: 12px;
-    border-radius: 10px;
-    text-align: left;
-    line-height: 1.6;
-}
