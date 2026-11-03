@@ -1,102 +1,104 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-    <meta charset="UTF-8">
-
-    <!-- Viewport Meta Tag -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Responsive Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Responsive Landing Page</title>
 
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-
-    <!-- Navbar -->
+  <body>
     <header class="navbar">
+      <div class="logo">TechWorld</div>
 
-        <div class="logo">
-            TechWorld
-        </div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-        <nav class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
-        </nav>
-
-        <button class="nav-btn">Get Started</button>
-
+      <a href="#services" class="nav-btn"> Get Started </a>
     </header>
 
-
-    <!-- Hero Section -->
     <main>
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <div class="hero-image">
+            <img src="hero.jpg" alt="Beautiful" />
+          </div>
 
-        <section class="hero">
+          <h1>Build Your Future With Technology</h1>
 
-            <div class="hero-content">
+          <p>
+            Explore web development, artificial intelligence and modern
+            technologies. Improve your skills and create something amazing.
+          </p>
 
-                <h1>Build Your Future With Technology</h1>
+          <a href="#services" class="hero-btn"> Explore More </a>
+        </div>
 
-                <p>
-                    Explore web development, artificial intelligence
-                    and modern technologies to improve your skills.
-                </p>
+        <div class="hero-image">
+          <img src="images/hero.jpg" alt="technology workspace">
+        </div>
+      </section>
 
-                <button class="hero-btn">Explore More</button>
+      <section class="about" id="about">
+        <h2>About Us</h2>
 
-            </div>
+        <p>
+          We help students explore modern technology, develop programming skills
+          and build their future through learning and creativity.
+        </p>
+      </section>
 
-            <div class="hero-image">
+      <section class="services" id="services">
+        <h2>Our Services</h2>
 
-                <img src="images/hero.jpg"
-                     alt="Technology and computer workspace">
+        <div class="service-container">
+          <div class="card">
+            <div class="icon">💻</div>
 
-            </div>
+            <h3>Web Development</h3>
 
-        </section>
+            <p>Learn HTML, CSS and JavaScript to create modern websites.</p>
+          </div>
 
+          <div class="card">
+            <div class="icon">🤖</div>
 
-        <!-- Services Section -->
-        <section class="services">
+            <h3>Artificial Intelligence</h3>
 
-            <h2>Our Services</h2>
+            <p>Explore Artificial Intelligence and Machine Learning.</p>
+          </div>
 
-            <div class="service-container">
+          <div class="card">
+            <div class="icon">📊</div>
 
-                <div class="card">
-                    <h3>Web Development</h3>
-                    <p>Learn HTML, CSS and JavaScript.</p>
-                </div>
+            <h3>Data Science</h3>
 
-                <div class="card">
-                    <h3>Artificial Intelligence</h3>
-                    <p>Explore AI and Machine Learning.</p>
-                </div>
+            <p>Discover insights through data analysis and visualization.</p>
+          </div>
 
-                <div class="card">
-                    <h3>Data Science</h3>
-                    <p>Understand data and discover insights.</p>
-                </div>
+          <div class="card">
+            <div class="icon">⚡</div>
 
-            </div>
+            <h3>Programming</h3>
 
-        </section>
-
+            <p>Improve your coding and problem-solving skills.</p>
+          </div>
+        </div>
+      </section>
     </main>
 
+    <footer class="footer" id="contact">
+      <p>© 2026 TechWorld. All Rights Reserved.</p>
 
-    <!-- Footer -->
-    <footer class="footer">
-
-        <p>© 2026 TechWorld. All Rights Reserved.</p>
-
+      <p>Designed using HTML and CSS.</p>
     </footer>
-
-</body>
+  </body>
 </html>
